@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/two_bg"
+    android:orientation="vertical"
+    tools:context="com.example.demo01.TwoActivity" >
+
+    <FrameLayout
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFAC2"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" 
+        android:paddingBottom="5dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            style="@style/radiobtnSytle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:drawableTop="@drawable/start_selector"
+            android:text="@string/main_tab1"
+            android:textSize="@dimen/radio_textsize" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            style="@style/radiobtnSytle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/market_selector"
+            android:text="@string/main_tab2"
+            android:textSize="@dimen/radio_textsize" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            style="@style/radiobtnSytle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tools_selector"
+            android:text="@string/main_tab3"
+            android:textSize="@dimen/radio_textsize" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            style="@style/radiobtnSytle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/orders_selector"
+            android:text="@string/main_tab4"
+            android:textSize="@dimen/radio_textsize" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            style="@style/radiobtnSytle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/my_selector"
+            android:text="@string/main_tab5"
+            android:textSize="@dimen/radio_textsize" />
+    </RadioGroup>
+
+</LinearLayout>

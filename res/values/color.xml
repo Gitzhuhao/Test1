@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="two_bg">#E5E5E5</color>
+    <color name="text_name_color">#ffff</color>
+    <color name="bg_color_pressed">#B6D48C</color>
+    <color name="bg_color_normal">#fff</color>
+    <color name="transport">#0000</color>
+    <color name="fontcolor_normal">#9B9B9B</color>
+    <color name="fontcolor_checked">#6DAC05</color>
+
+</resources>

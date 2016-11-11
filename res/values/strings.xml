@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo01</string>
+    <string name="search_name">天禾农事通</string>
+    <string name="search_textname">搜索农资.农机.农事服务</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_two">TwoActivity</string>
+    <string name="main_tab1">首页</string>
+    <string name="main_tab2">商城</string>
+    <string name="main_tab3">工具</string>
+    <string name="main_tab4">订单</string>
+    <string name="main_tab5">我的</string>
+    <string name="main_gd1">嘀嘀农机</string>
+    <string name="main_gd2">农资商城</string>
+    <string name="main_gd3">学农技</string>
+    <string name="main_gd01">订单</string>
+    <string name="main_gd02">我的</string>
+    <string name="main_gd03">订单</string>
+    <string name="main_gd04">我的</string>
+    <string name="main_gd05">订单</string>
+    <string name="main_gd06">我的</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_four">FourActivity</string>
+    <string name="title_activity_five">FiveActivity</string>
+    <string name="title_activity_six">SixActivity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+
+</resources>
